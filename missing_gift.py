@@ -1,0 +1,5 @@
+n=int(input("Enter the number of gifts: "))
+original=list(map(int, input().strip().split()))
+found=list(map(int, input().strip().split()))
+missing=sum(original)-sum(found)
+print(missing)
